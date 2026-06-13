@@ -1,0 +1,19 @@
+{"users": [
+
+    {
+        "username": "Lucy",
+        "projects": [
+            {
+                "name": "CLI Tool",
+                "tasks": [
+                    {
+                    "title": "Build menu",
+                    "description": "Creating CLI menu",
+                    "completed": false    
+                    }
+                ]
+            }
+        ]
+    }
+]
+}
