@@ -9,3 +9,4 @@ subparsers = parser.add_subparsers(dest = "command")
 add_user = subparsers.add_parser("add-user")
 add_user.add_argument("username")
 
+list_users = subparsers.add_parser("list-users")
