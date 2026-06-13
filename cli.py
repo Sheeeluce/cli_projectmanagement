@@ -17,3 +17,10 @@ add_project = subparsers.add_parser("add-project")
 
 add_project.add_argument("username")
 add_project.add_argument("project_name")
+
+#add-task
+add_task = subparsers.add_parser("add-task")
+
+add_task.add_argument("username")
+add_task.add_argument("project_name")
+add_task.add_argument("task_title")
